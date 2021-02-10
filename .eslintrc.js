@@ -21,5 +21,12 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        'eqeqeq': [
+            'error',
+            'always',
+            {
+                null: 'ignore'
+            }
+        ],
     }
 };
